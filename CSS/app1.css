@@ -1,0 +1,83 @@
+#app1{
+    width:1125px;
+    height:2436px;
+    position: absolute;
+/*    background-color: antiquewhite;*/
+    left:0px;
+    top:0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#app1 video{
+    position: absolute;
+}
+#rabbitear1{
+    width:100%;
+    height:20px;
+/*    background-color: #c0ffdb;*/
+
+/*    background-blend-mode:screen;*/
+}
+#bigtitle{
+    width:100%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+/*    background-color: #d2fff0;*/
+    position: absolute;
+    top:120px;
+}
+#bigtitle p{
+    font-family: JB;
+    font-size: 70pt;
+    color: white;
+}
+#imagebox{
+    width:100%;
+    height:1100px;
+/*    background-color: deepskyblue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+}
+#imagebox img{
+    width:  350px;
+    height: 1050px;
+}
+#descriptionsbox{
+    width: 100%;
+    height:600px;
+/*    background-color: #ffffb7;*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:1300px;
+}
+#descriptionsbox p{
+    font-family: JBC;
+    font-size: 45pt;
+    text-align: center;
+    color: white;
+}
+#letsgo{
+    width:100%;
+    height:286px;
+/*    background-color: #ffa8a8;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2005px;
+}
+#letsgo a{
+    font-family: JBC;
+    font-size: 60pt;
+    color: #00AEEF;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
